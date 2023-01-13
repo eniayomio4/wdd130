@@ -1,32 +1,34 @@
 
- body {
+
+nav, footer {
     text-align: center;
-}
-
-
-nav {
     background-color: steelblue;
     padding: 10px;
 }
 
 
 a {
+    font-size: 1em;
     color: white;
     margin: 40px;
     line-height: 1.5em;
 }
 
 
-h1, h2 {
+h1 {
+    text-align: center;
     color: steelblue;
 }
 
 img {
-    width: 800px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
     border: 4px solid steelblue;
 }
 
 p {
+    text-align: center;
     padding: 10px;
 }
 
@@ -35,3 +37,9 @@ p {
     background-color: white;
     color: steelblue;
 }
+
+a:hover {background-color: white; 
+    color: steelblue;
+}
+
+
