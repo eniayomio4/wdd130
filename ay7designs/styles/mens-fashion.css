@@ -54,37 +54,41 @@ nav a:hover {
     align-self: center;
 }
 
-#welcome {
-    display: grid;
-    grid-template-columns: 500px 500px;
-    margin-bottom: 200px;
-}
-#ballet-img {
-    width: 600px;
-    margin-left: 100px;
-    margin-top: 60px;
-}
 
-#welcome-msg {
-    margin-top: 30px;
-    margin-left: 20px;
-}
+#welcome-head {
+    text-align: center;
+    margin-top: 50px;
+ }
+
+ p {
+    font-family: var(--paragraph-font);
+ }
+
+ h1 {
+    font-family: var(--heading-font);
+ }
+ 
+ #welcome-msg {
+    padding: 30px 150px;
+ }
+
+
+
+ .wears-img {
+    width: 500px;
+    height: 500px;
+    border: 10px solid #e4e7dc;
+ }
+
 
 .main-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-p {
-    font-family: var(--paragraph-font);
-}
 
-.wears-img {
-    width: 400px;
-    height: 500px;
-    margin-left: 120px;
-    border: 10px solid #e4e7dc;
-
+.sub-grid {
+    padding: 50px;
 }
 
 .button-box {
@@ -104,9 +108,8 @@ p {
     color: #747473;
 }
 
-.wears-grid {
-    margin-bottom: 200px;
-}
+
+
 
 footer {
     padding: 25px 50px;
