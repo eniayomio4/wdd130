@@ -58,13 +58,14 @@ nav a:hover {
 #welcome-head {
     text-align: center;
     margin-top: 50px;
+    font-size: 50px;
  }
 
  p {
     font-family: var(--paragraph-font);
  }
 
- h1 {
+ h2 {
     font-family: var(--heading-font);
  }
  
@@ -145,6 +146,7 @@ footer a {
   .title {
     color: grey;
     font-size: 18px;
+    font-family: var(--heading-font);
   }
   
   button {
@@ -168,4 +170,7 @@ footer a {
   
   button:hover, a:hover {
     opacity: 0.7;
+  }
+  p {
+    font-family: var(--paragraph-font);
   }
